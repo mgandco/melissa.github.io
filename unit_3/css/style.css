@@ -1,0 +1,32 @@
+body {
+	background: url("../images/background.jpg");
+	background-size: cover;
+	padding-top: 20px;
+	padding-left: 38px;
+}
+
+h1 {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 100;
+	font-size:16px;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+p {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: #000000;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Josefin Slab', serif;
+}
+
+.link {
+	color: #FFF; 
+	text-decoration: none;
+}
