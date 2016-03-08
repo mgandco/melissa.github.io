@@ -40,3 +40,7 @@ ul {
 li {
 	margin-bottom: 15px;
 }
+
+li span {
+	color: #0095b6;
+}
