@@ -1,37 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
 body {
-	background: url("../images/background.jpg");
+	background: url("../images/background_2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	padding-top: 20px;
+	padding-top: 7px;
 	padding-left: 38px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #000;
 }
 
 h1 {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Abril Fatface', cursive;
 	font-weight: 100;
-	font-size:16px;
+	font-size: 28px;
 	text-transform: uppercase;
-	color: #FFF;
 }
 
-p {
-	font-family: 'Josefin Slab', serif;
-	font-weight: 100;
-	font-size: 16px;
-	color: #000000;
+h2 {
+	font-family: inherit;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 ul {
     text-align: left;
+    padding-left: 34px;
     list-style-type: none;
-    font-family: 'Josefin Slab', serif;
-    font-size: 16px;
 }
 
-#slogan {
-	font-size: 16px;
-}
-
-.link {
-	color: #FFF; 
-	text-decoration: none;
+li {
+	margin-bottom: 15px;
 }
