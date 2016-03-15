@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+body {
+	background: url("../images/background_2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 7px;
+	padding-left: 38px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #000;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 100;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: inherit;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+    text-align: left;
+    padding-left: 34px;
+    list-style-type: none;
+}
+
+li {
+	margin-bottom: 15px;
+}
+
+li span {
+	color: #0095b6;
+}
