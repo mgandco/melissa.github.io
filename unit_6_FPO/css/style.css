@@ -78,9 +78,10 @@ li span {
 }
 
 #project1 {
-	background: url("../images/background_2.jpg")
+	background-color: #5F9F9F;
 	float: left;
 	width: 39%;
+	height: 10em;
 	margin: .5%;
 }
 
