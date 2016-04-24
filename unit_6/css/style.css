@@ -4,23 +4,21 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-color: #FFF, no-repeat center center fixed;
+	background: url("../images/background_2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #222;
 }
-
 header {
-	padding-top: 2em;
+	padding-top: 1em;
     margin-left: 10%;
 }
 
 nav {
-    float: left;
-    padding-top: 1em;
-    margin-left: 10%;
+    float: right;
+    margin-right: 10%;
 }
 
 section {
@@ -37,16 +35,15 @@ section img {
 
 footer {
 	background-color: #FFF;
-	padding-top: 3em;
-	padding-bottom: 4em;
-	margin-left: 10%
+	padding: 1em 0em 1em .25em;
+	margin: 1em 10% 1em 10%;
 }
 
 h1 {
 	font-family: 'Abril Fatface', cursive;
 	font-weight: 100;
 	font-size: 1.75em;
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 p {
@@ -64,8 +61,8 @@ ol {
 
 li {
 	float: left;
-	padding: .5em .5em .5em 0em;
-	margin-bottom: 2em;
+	padding: .5em 0em .5em .5em;
+	margin-bottom: 1em;
 }
 
 li span {
@@ -80,34 +77,76 @@ li span {
    clear: both;
 }
 
-.project1to1 {
+#project1 {
+	background-color: #5F9F9F;
 	float: left;
-	width: 25%;
+	width: 39%;
+	height: 10em;
+	margin: .5%;
 }
 
-.project2to2 {
-	float: left;
-	width: 50%;
-}
-
-.project1to2 {
+#project2 {
+	background-color: #B4CDCD;
 	float: right;
-	width: 25%;
+	width: 59%;
+	height: 20.5em;
+	margin: .5%;
+	clear: right;
 }
 
-.project2to1 {
+#project3 {
+	background-color: #668B8B;
 	float: left;
-	width: 50%;
+	width: 39%;
+	height: 10em;
+	margin: .5%;
 }
 
-.project3to2 {
+#project4 {
+	background-color: #2F4F4F;
+	float: left;
+	width: 39%;
+	height: 20.5em;
+	margin: .5%;
+	clear: left;
+}
+
+#project5 {
+	background-color: #838B8B;
+	float: left;
+	width: 29%;
+	height: 10em;
+	margin: .5%;
+}
+
+#project6 {
+	background-color: #C1CDCD;
+	float: left;
+	width: 29%;
+	height: 10em;
+	margin: .5%;
+}
+
+#project7 {
+	background-color: #5F9F9F;
+	float: left;
+	width: 29%;
+	height: 10em;
+	margin: .5%;
+}
+
+#project8 {
+	background-color: #2F4F4F;
 	float: right;
-	width: 75%;
+	width: 29%;
+	height: 20.5em;
+	margin: .5%;
 }
 
-.project3to2l {
+#project9 {
+	background-color: #668B8B;
 	float: left;
-	width: 75%;
+	width: 69%;
+	height: 10em;
+	margin: .5%;
 }
-
-
