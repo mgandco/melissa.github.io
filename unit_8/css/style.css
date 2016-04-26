@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #FFF, no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #222;
+}
+
+header {
+	padding-top: 2em;
+    margin-left: 10%;
+}
+
+nav {
+    float: left;
+    padding-top: 1em;
+    margin-left: 10%;
+}
+
+section {
+	background-color: #E4F4FA;
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+section img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+footer {
+	background-color: #FFF;
+	padding-top: 3em;
+	padding-bottom: 4em;
+	margin-left: 10%
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 100;
+	font-size: 1.75em;
+	text-transform: none;
+}
+
+p {
+	letter-spacing: .15em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ol {
+    list-style-type: none;
+}
+
+li {
+	float: left;
+	padding: .5em .5em .5em 0em;
+	margin-bottom: 2em;
+}
+
+li span {
+	color: #0095b6;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.project1to1 {
+	float: left;
+	width: 25%;
+}
+
+.project2to2 {
+	float: left;
+	width: 50%;
+}
+
+.project1to2 {
+	float: right;
+	width: 25%;
+}
+
+.project2to1 {
+	float: left;
+	width: 50%;
+}
+
+.project3to2 {
+	float: right;
+	width: 75%;
+}
+
+.project3to2l {
+	float: left;
+	width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 14px;
+	}
+	[class^="project"] {
+	width: 100%;  
+	float: none;
+	margin: 0em; 
+    }
+
+	li {
+	display: block;
+	float: none;
+	margin-bottom: .25em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	li {
+	display: block;
+	float: none;
+	margin-bottom: .25em;
+	}
+
+	body {
+		font-size: 14px;
+	}
+	[class^="project"] {
+	width: 100%;  
+	float: none;
+	margin: 0em; 
+    }
+
+	
+}
+
+
+
+
