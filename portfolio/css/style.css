@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Lusitana:400);
 
@@ -123,7 +124,7 @@ hr {
 	color:rgba(0,0,0,0);
 	padding:2em;
 	position:absolute;
-	/*
+	
 	top:0;
 	left:0;
 	right:0;
@@ -131,7 +132,7 @@ hr {
 	^ use above instead of below to return to full hover 
 	issue: how do I center the text in the image regardless 
 	of browser "image" size?*/
-  	top: 50%;
+  	/*top: 50%;
   	left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -240,6 +241,16 @@ hr {
 .projectsidebar {
   float: left;
   width: 50%;
+  align-content: center;
+}
+
+.brochure {
+	padding-left: 12%;
+	padding-bottom: 4em;
+}
+
+.icon {
+	padding-left: 7%;
 }
 
 /*I also want to set a max width so my images 
